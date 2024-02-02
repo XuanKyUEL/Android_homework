@@ -1,0 +1,33 @@
+# OS Files
+.DS_Store
+*.log
+
+# Build files
+/build
+.gradle/
+*.apk
+output.json
+.externalNativeBuild
+.cxx
+captures/
+
+# Local configuration files
+/local.properties
+local.properties
+
+# IntelliJ and Android Studio Files
+*.iml
+/.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
