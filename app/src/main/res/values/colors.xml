@@ -5,4 +5,7 @@
     <color name="appbackground">#CD66C3</color>
     <color name="editbox_bg">#518ED9</color>
     <color name="red">#CD2C2C</color>
+    <color name="edit_box">#E2D1C5</color>
+    <color name="hint_color">#807878</color>
+    <color name="on_input">#C47310</color>
 </resources>
