@@ -8,4 +8,5 @@
     <color name="edit_box">#E2D1C5</color>
     <color name="hint_color">#807878</color>
     <color name="on_input">#C47310</color>
+    <color name="login_btn_color">#D06433</color>
 </resources>

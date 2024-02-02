@@ -2,20 +2,31 @@ package com.example.login_ex1;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.graphics.drawable.GradientDrawable;
 import android.widget.Button;
 
 public class SquareButton extends androidx.appcompat.widget.AppCompatButton {
 
     public SquareButton(Context context) {
         super(context);
+        init();
+    }
+
+    private void init() {
+        GradientDrawable gd = new GradientDrawable();
+        gd.setColor(getResources().getColor(R.color.login_btn_color)); // Changes this drawbale to use a single color instead of a gradient
+        gd.setCornerRadius(20);
+        this.setBackground(gd);
     }
 
     public SquareButton(Context context, AttributeSet attrs) {
         super(context, attrs);
+        init();
     }
 
     public SquareButton(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        init();
     }
 
     @Override
