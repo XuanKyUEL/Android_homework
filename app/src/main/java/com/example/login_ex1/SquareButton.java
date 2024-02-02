@@ -34,4 +34,3 @@ public class SquareButton extends androidx.appcompat.widget.AppCompatButton {
         super.onMeasure(widthMeasureSpec, widthMeasureSpec); // This is the key line
     }
 }
-
