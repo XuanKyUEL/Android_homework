@@ -3,7 +3,7 @@ package com.example.login_ex1;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.graphics.drawable.GradientDrawable;
-import android.widget.Button;
+
 
 public class SquareButton extends androidx.appcompat.widget.AppCompatButton {
 
