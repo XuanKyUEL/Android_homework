@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">login_ex1</string>
     <string name="login_avatar">Login avatar</string>
+    <string name="login_title">Login</string>
+    <string name="type_your_email">Type your email</string>
+    <string name="type_your_password">Type your password</string>
+    <string name="new_user">New user ?</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="register">Register</string>
 </resources>

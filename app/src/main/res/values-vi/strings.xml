@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">login_ex1</string>
+    <string name="login_avatar">Login avatar</string>
+    <string name="login_title">   Đăng nhập   </string>
+    <string name="type_your_email">Nhập email của bạn</string>
+    <string name="type_your_password">Nhập mật khẩu của bạn</string>
+    <string name="new_user">Người dùng mới ?</string>
+    <string name="email">Email:</string>
+    <string name="password">Mật khẩu:</string>
+    <string name="register">Đăng ký</string>
+</resources>
