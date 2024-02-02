@@ -125,11 +125,11 @@
 
     <ImageView
         android:id="@+id/delivery_truck"
-        android:layout_width="96dp"
+        android:layout_width="100dp"
         android:layout_height="101dp"
         android:layout_marginTop="75dp"
-        android:layout_marginEnd="60dp"
-        android:src="@drawable/delivery_truck"
+        android:layout_marginEnd="65dp"
+        android:src="@drawable/delivery_man"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/fastfood" />
 
@@ -139,8 +139,8 @@
         android:textSize="20sp"
         android:text="Giao hàng"
         android:textColor="@color/white"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="57dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/delivery_truck" />
 
@@ -149,7 +149,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="205dp" />
+        app:layout_constraintGuide_begin="303dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
