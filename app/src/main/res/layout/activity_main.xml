@@ -124,7 +124,7 @@
         app:layout_constraintTop_toBottomOf="@+id/fastfood" />
 
     <ImageView
-        android:id="@+id/delivery_truck"
+        android:id="@+id/delivery_man"
         android:layout_width="100dp"
         android:layout_height="101dp"
         android:layout_marginTop="75dp"
@@ -142,7 +142,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="60dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/delivery_truck" />
+        app:layout_constraintTop_toBottomOf="@+id/delivery_man" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
