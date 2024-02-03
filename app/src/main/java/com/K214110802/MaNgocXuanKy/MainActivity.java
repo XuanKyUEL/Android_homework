@@ -1,16 +1,8 @@
-package com.example.login_ex1;
-
-import static android.graphics.Color.BLACK;
+package com.K214110802.MaNgocXuanKy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.Color;
 import android.os.Bundle;
-import android.text.SpannableString;
-import android.text.style.ForegroundColorSpan;
-import android.text.style.UnderlineSpan;
-import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {

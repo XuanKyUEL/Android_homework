@@ -79,7 +79,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtpasswordtitle" />
 
-    <com.example.login_ex1.SquareButton
+    <com.K214110802.MaNgocXuanKy.SquareButton
         android:id="@+id/btnlogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
