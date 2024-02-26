@@ -5,7 +5,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.os.Bundle;
 import android.os.Handler;
-import android.widget.ArrayAdapter;
 
 import java.util.ArrayList;
 
@@ -28,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         initData();
         loadData();
         addEventes();
+
     }
 
     private void initData() {
