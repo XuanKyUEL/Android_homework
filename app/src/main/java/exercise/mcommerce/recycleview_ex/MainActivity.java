@@ -28,33 +28,6 @@ public class MainActivity extends AppCompatActivity {
         initData();
         loadData();
         addEventes();
-
-    }
-
-    private int currentItem = 0;
-    private Handler handler = new Handler();
-
-    private Runnable runnable = new Runnable() {
-        @Override
-        public void run() {
-            if (currentItem == adapter.getItemCount()) {
-                currentItem = 0;
-            }
-            binding.recyclerView.smoothScrollToPosition(currentItem++);
-            handler.postDelayed(this, 2500);
-        }
-    };
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        handler.postDelayed(runnable, 2500);
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        handler.removeCallbacks(runnable);
     }
 
     private void initData() {
