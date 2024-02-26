@@ -2,7 +2,11 @@ package exercise.mcommerce.gridview;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -49,5 +53,23 @@ public class advancedGridview_ex extends AppCompatActivity {
     }
 
     private void addEvents() {
+        binding.gridViewAdvanced.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Beers selectedBeer = beers.get(position);
+                Intent intent = new Intent(advancedGridview_ex.this, on_click_details.class);
+                intent.putExtra("beerThumb", selectedBeer.getBeerThumb());
+                intent.putExtra("beerName", selectedBeer.getBeerName());
+                intent.putExtra("beerPrice", selectedBeer.getBeerPrice());
+                startActivity(intent);
+            }
+        });
+        // hold to delete
+        binding.gridViewAdvanced.setOnItemLongClickListener((parent, view, position, id) -> {
+            Toast.makeText(advancedGridview_ex.this, "Deleted " + beers.get(position).getBeerName(), Toast.LENGTH_SHORT).show();
+            beers.remove(position);
+            adapter.notifyDataSetChanged();
+            return true;
+        });
     }
 }

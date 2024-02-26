@@ -58,7 +58,6 @@ public class BeerAdapter extends BaseAdapter {
             convertView = inflater.inflate(item_Layout, null);
             holder.beerImage = convertView.findViewById(R.id.beerImage);
             holder.beerName = convertView.findViewById(R.id.beerName);
-            holder.beerPrice = convertView.findViewById(R.id.beerPrice);
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();
@@ -67,7 +66,6 @@ public class BeerAdapter extends BaseAdapter {
         Beers beers = list.get(position);
         holder.beerImage.setImageResource(beers.getBeerThumb());
         holder.beerName.setText(beers.getBeerName());
-        holder.beerPrice.setVisibility(View.GONE);
 
         return convertView;
     }
