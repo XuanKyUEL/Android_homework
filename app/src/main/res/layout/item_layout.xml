@@ -7,14 +7,14 @@
     android:padding="10dp">
 
     <ImageView
-        android:id="@+id/ivImage"
+        android:id="@+id/beerImage"
         android:layout_width="130dp"
         android:layout_height="220dp"
         android:scaleType="centerCrop"
         android:src="@drawable/hanoi" />
 
     <TextView
-        android:id="@+id/tvName"
+        android:id="@+id/beerName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Bia Hà Nội"
@@ -24,7 +24,7 @@
         android:layout_marginTop="10dp"
         android:gravity="center"/>
     <TextView
-        android:id="@+id/tvPrice"
+        android:id="@+id/beerPrice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="20.000 VND"
