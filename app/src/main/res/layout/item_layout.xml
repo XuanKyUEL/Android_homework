@@ -23,16 +23,6 @@
         android:textColor="#C2242D"
         android:layout_marginTop="10dp"
         android:gravity="center"/>
-    <TextView
-        android:id="@+id/beerPrice"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="20.000 VND"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:textColor="#0F337A"
-        android:layout_marginTop="10dp"
-        android:gravity="center"/>
 
     <View
         android:layout_width="130dp"
