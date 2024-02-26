@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".on_click_details"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/beerImage"
+        android:layout_width="130dp"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hanoi" />
+
+    <TextView
+        android:id="@+id/beerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bia Hà Nội"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#C2242D"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/beerPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="20.000 VND"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#0F337A"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+
+</LinearLayout>
