@@ -72,7 +72,7 @@ public class recyAdapter extends RecyclerView.Adapter<recyAdapter.ViewHolder> {
                     Beers selectedBeer = list.get(getAdapterPosition());
                     Toast.makeText(itemView.getContext(), "Deleted " + selectedBeer.getBeerName(), Toast.LENGTH_SHORT).show();
                     list.remove(selectedBeer);
-                    notifyDataSetChanged();
+                    notifyItemMoved(getAdapterPosition(), list.size() - 1);
                     return true;
                 }
             });
