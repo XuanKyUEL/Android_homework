@@ -41,14 +41,14 @@ public class MainActivity extends AppCompatActivity {
                 currentItem = 0;
             }
             binding.recyclerView.smoothScrollToPosition(currentItem++);
-            handler.postDelayed(this, 2500);
+            handler.postDelayed(this, 2000);
         }
     };
 
     @Override
     protected void onResume() {
         super.onResume();
-        handler.postDelayed(runnable, 2500);
+        handler.postDelayed(runnable, 2000);
     }
 
     @Override
