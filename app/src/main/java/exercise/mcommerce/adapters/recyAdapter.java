@@ -18,7 +18,7 @@ import exercise.mcommerce.models.Beers;
 import exercise.mcommerce.recycleview_ex.R;
 
 public class recyAdapter extends RecyclerView.Adapter<recyAdapter.ViewHolder> {
-    private List<Beers> list;
+    private final List<Beers> list;
     // Constructor
     public recyAdapter(List<Beers> list) {
         this.list = list;
@@ -61,7 +61,7 @@ public class recyAdapter extends RecyclerView.Adapter<recyAdapter.ViewHolder> {
                 public void onClick(View v) {
                     // Do something when the item is clicked
                     Beers selectedBeer = list.get(getAdapterPosition());
-                    Toast.makeText(itemView.getContext(), selectedBeer.getBeerName() +"-" + selectedBeer.getBeerPrice(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(itemView.getContext(), selectedBeer.getBeerName() +"-" + selectedBeer.getRoundBeerPrice(), Toast.LENGTH_SHORT).show();
                 }
             });
 

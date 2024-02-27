@@ -31,6 +31,10 @@ public class Beers {
         return beerPrice;
     }
 
+    public long getRoundBeerPrice() {
+        return Math.round(beerPrice);
+    }
+
     public void setBeerPrice(Double beerPrice) {
         this.beerPrice = beerPrice;
     }
